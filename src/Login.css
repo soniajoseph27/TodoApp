@@ -1,0 +1,98 @@
+
+/* Login.css */
+*{
+  overflow: hidden;
+}
+
+.login-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 615px;
+    
+  }
+  
+  .login-left {
+    flex: 1;
+    width: 760px;
+    height: 620px;
+    text-align: center;
+    padding-top: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .login-right {
+    flex: 1;
+    width: 900px;
+    height: 100%;
+    background-color:white;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 70px;
+    border-radius: 5px;
+  }
+  
+
+  
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    Width:Fixed (587px);
+    Height:Fixed (59px);
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 40px;
+
+  }
+  
+  button img {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+
+  h1{
+    width: 101.04px;
+    height: 40px;
+    top: 364px;
+    left: 600px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 240px;
+  }
+  
+  p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0000008C;
+  }
+
+  .login-right img{
+    height:100%;
+    margin-top: 30px;
+    width:100%;
+  }
+  

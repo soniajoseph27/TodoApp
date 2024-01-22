@@ -1,0 +1,228 @@
+ body{
+  background-color: #ffffff; 
+}
+
+h1{
+  text-align: center;
+  color: #000000D9;
+  margin-left: 30px;
+ 
+
+}
+
+.App{
+  width:100%;
+  height: 100%;
+  display:flex;
+  
+}
+
+.todo-left{
+  width:50%;
+  height: 800px;
+}
+
+.left-content{
+  margin-top: 120px;
+  height: 50%;
+  padding: 40px;
+  border-right: 1px solid  #0000008C;
+
+}
+
+p{
+  padding-left: 100px;
+  padding-right: 70px;
+  justify-content: center;
+  word-spacing: 3px;
+  color: #0000008C;
+  font-size: 18px; 
+}
+
+
+.todo-input{
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+  width: 400px; 
+  height: 150px;
+  margin-top: 5px;
+  
+}
+
+.todo-input-item input {
+  width:250px;
+ padding:10px;
+ margin-top: 10px;
+ margin-left: 30px;
+ 
+}
+
+
+.todo-input-item button{
+  width: 220px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background: linear-gradient(0deg, #1890FF, #1890FF),linear-gradient(0deg, #597EF7, #597EF7);
+  border: 1px solid #1890FF;
+  box-shadow: 0px 2px 0px 0px #0000000B;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  align-items: center;
+  padding-left: 80px;
+  
+}
+
+.todo-right{
+  width:50%;
+  height: 1000px;
+}
+
+.right-content {
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 100%;
+  justify-content: left;
+  overflow:y;
+}
+
+.right-heading {
+  color: #000000D9;
+  width: 100%;
+  text-align: left;
+  padding-left: 0px; 
+}
+
+
+.search-box{
+  margin-left: 0px ;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.search-box::after{
+  left: unset;
+  right: 20px;
+
+}
+
+.search-icon{
+  margin-left: -20px;
+  margin-top: -25px;
+}
+
+
+.filter-box{
+  margin-left: 200px ;
+  margin-top: 20px;
+  height: 30px;
+}
+
+
+.card-list {
+  max-height: 400px; 
+  overflow-y: auto; 
+  padding: 20px; 
+  margin: 10px; 
+}
+
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-right:40px;
+}
+
+.list-content {
+  flex: 1;
+  max-height: 200px; 
+  overflow-y: auto; 
+  padding: 10px;
+  }
+
+
+.list-content h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.list-content p {
+  margin-left: -100px;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+}
+
+.options-container {
+  display: flex;
+  align-items: center;
+}
+
+.options {
+  position: relative;
+}
+
+.options-container {
+  position: relative;
+}
+
+.options-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+
+
+.menu button {
+  width: 100%;
+  padding: 0px;
+  text-align: left;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.menu button:hover {
+  background-color: #666;
+}
+
+.options-container:hover .menu {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  }
+
+  .todo-left,
+  .todo-right {
+    width: 100%;
+  }
+
+  .todo-input,
+  .right-content {
+    width: 100%;
+  }
+
+  .left-content {
+    border-right: none;
+  }
+}
